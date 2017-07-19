@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+  <head>
+    <link rel="stylesheet" href="{{ STATIC_URL }}style.css" />
+    <meta charset="utf-8">
+    <title>time display</title>
+
+  </head>
+  <body>
+    <div class="">
+
+    </div>
+    <form action="/login" method="POST">
+
+        <legend>the current time and date</legend>
+        {% csrf_token %}
+
+          <h5>{{currentDateTime}}</h5>
+
+
+
+  </body>
+</html>

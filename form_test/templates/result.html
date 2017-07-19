@@ -1,0 +1,10 @@
+<h3>Submitted Info</h3>
+<form action='/result' method='get'><br><br>
+    <h1>Name:{{session['name']}}</h1><br><br>
+    <h4>Dojo location:{{session['location']}}</h4><br><br>
+    <h4>Comment:{{session['comment']}}</h4><br><br>
+    <h4>Favorite language:{{session['language']}},</h4><br><br>
+    <!-- <input type='submit' value='Go Back'> -->
+    <input type="button" value="Back" onclick="window.history.back()" />
+
+</form>

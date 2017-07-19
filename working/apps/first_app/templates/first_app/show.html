@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    {% load staticfiles %}
+  <link rel="stylesheet" href="{% static 'first_app/css/styles.css' %}">
+  <script src="{% static 'first_app/js/main.js' %}" > </script>
+  </head>
+  <body>
+    <h1>future user</h1>
+    i bet rather than passing this id: {{id}} we could go to a db and user based on a sql statement that is equivalent to "SELECT * FROM Users where id = {{id}}"
+  </body>
+</html>

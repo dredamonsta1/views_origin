@@ -1,0 +1,36 @@
+<html>
+    <head>
+       <title>Form Test Index</title>
+    </head>
+    <body>
+      <h1>Index Page</h1>
+      <h3>Create a User</h3>
+      <!-- read on to learn about form actions, we'll talk about the method in a later section -->
+      <form action='/users' method='post'>
+          Name: <input type='text' name='name'><br><br>
+          Dojo Location: <select name='location'>
+                            <option value='San Jose'>San Jose</option>
+                            <option value='Burbank'>Burbank</option>
+                            <option value='Orange County'>Orange County</option>
+                            <option value='Washington'>Washington</option>
+                            <option value='Seattle'>Seattle</option>
+                            <option value='Chicago'>Chicago</option>
+                         </select><br><br>
+          Favorate Language:<select name='language'>
+                                <option value='Python'>Python</option>
+                                <option value='MEAN'>MEAN</option>
+                                <option value='Ruby on Rails'>Ruby on Rails</option>
+                                <option value='IOS'>IOS</option>
+                                <option value='.NET'>.NET</option>
+                            </select><br><br>
+          Comment (optional): <br><textarea rows="4" col="100" name='comment'></textarea><br><br>
+          <input type='submit' value='create user'>
+      </form>
+    </body>
+</html>
+
+<!-- <form action='/users' method='post'> -->
+    <!-- Favorate Language:<input type='text' name='name'> -->
+    <!-- Email:<input type='text' name='email'> -->
+    <!-- <input type='submit' value='Submit'> -->
+<!-- </form> -->
